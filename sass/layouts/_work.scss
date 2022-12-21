@@ -1,0 +1,24 @@
+.section-work {
+  padding-top: 0;
+}
+.work-list {
+  display: flex;
+  & .item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.work-box {
+  position: relative;
+}
+.work-thumb {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 27px 0;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}

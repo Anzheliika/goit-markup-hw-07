@@ -1,0 +1,123 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--bkg-block-color);
+  &-container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+.address {
+  color: var(--primery-white-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.logo-footer {
+  display: block;
+  margin-bottom: 28px;
+
+  color: var(--primery-white-color);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.footer-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-contact-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.sign-up {
+  margin-left: 70px;
+}
+.footer-sign-up-text {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+  margin-bottom: 20px;
+}
+.sign-up-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-item {
+  width: 44px;
+  height: 44px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.sign-up-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--primery-white-color);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+.sign-up-icon {
+  fill: currentColor;
+}
+
+.form-footer {
+  margin-left: auto;
+}
+.footer-label {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--primery-white-color);
+}
+.div-form-mail {
+  display: flex;
+  align-items: center;
+}
+.footer-input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  color: var(--primery-white-color);
+}
+.button-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px 28px;
+  margin-left: 12px;
+}
+.icon-telegram {
+  margin-left: 10px;
+  fill: var(--primery-white-color);
+}
