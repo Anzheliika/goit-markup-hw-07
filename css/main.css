@@ -72,6 +72,12 @@ button {
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-field-checkbox, .close-button, .sign-up-link, .sign-up-list, .team-soc-link, .team-soc-list, .feature-div, .contact-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -148,10 +154,7 @@ button {
 }
 
 .contact-list {
-  display: flex;
   margin-left: auto;
-  justify-content: center;
-  align-items: center;
 }
 
 .item-contact:not(:last-child) {
@@ -255,9 +258,6 @@ button {
 .feature-div {
   width: 270px;
   height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
@@ -337,12 +337,6 @@ button {
   text-align: center;
 }
 
-.team-soc-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .team-soc-items {
   width: 44px;
   height: 44px;
@@ -354,10 +348,7 @@ button {
 .team-soc-link {
   width: 100%;
   height: 100%;
-  display: flex;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   color: var(--fill-icon);
   transition-property: background-color, color;
   transition-duration: 250ms;
@@ -459,12 +450,6 @@ button {
   margin-bottom: 20px;
 }
 
-.sign-up-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .sign-up-item {
   width: 44px;
   height: 44px;
@@ -476,10 +461,7 @@ button {
 .sign-up-link {
   width: 100%;
   height: 100%;
-  display: flex;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
   background: rgba(255, 255, 255, 0.1);
   color: var(--primery-white-color);
   transition-property: background-color;
@@ -575,9 +557,6 @@ button {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 30px;
   height: 30px;
   background-color: var(--primery-white-color);
@@ -680,9 +659,6 @@ textarea {
 }
 
 .form-field-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 30px;
 }
 

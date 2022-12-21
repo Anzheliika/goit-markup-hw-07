@@ -7,9 +7,7 @@
   color: var(--black-color);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  @include font(26, 700, 1.2, null);
 }
 .logo-web {
   color: var(--accent-color);
@@ -26,10 +24,8 @@
   }
 }
 .contact-list {
-  display: flex;
+  @extend %flex-center;
   margin-left: auto;
-  justify-content: center;
-  align-items: center;
 }
 .item-contact:not(:last-child) {
   margin-right: 40px;
@@ -41,10 +37,7 @@
 .header-link,
 .contact-link {
   color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(14, 500, 1.14, 0.02);
 
   transition-property: color;
   transition-duration: 250ms;

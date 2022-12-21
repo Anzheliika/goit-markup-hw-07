@@ -17,10 +17,7 @@
   margin-bottom: 30px;
 
   color: var(--primery-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.34;
+  @include font(44, 900, 1.34, 0.06);
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 }

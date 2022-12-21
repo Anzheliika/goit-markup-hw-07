@@ -43,9 +43,7 @@
   top: 8px;
   right: 8px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flex-center;
 
   width: 30px;
   height: 30px;
@@ -70,9 +68,7 @@
 }
 .modal-header {
   margin-bottom: 12px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(20, 700, 1.15, null);
   text-align: center;
   color: var(--title-text-color);
 }
@@ -85,9 +81,7 @@
   padding-left: 42px;
   outline: none;
 
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
+  @include font(12, 400, 1.17, null);
 
   transition: border-color 250ms var(--timing-function);
 
@@ -121,10 +115,7 @@
   display: block;
   margin-bottom: 4px;
 
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font(12, 400, 1.17, 0.01);
   color: var(--primery-text-color);
 }
 textarea {
@@ -148,17 +139,12 @@ textarea {
     border-color: var(--accent-color);
   }
   &::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include font(12, 400, 1.17, 0.01);
     color: rgba(117, 117, 117, 0.5);
   }
 }
 .form-field-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flex-center;
   margin-bottom: 30px;
 }
 .input-checkbox {

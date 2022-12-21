@@ -11,9 +11,7 @@
 .feature-div {
   width: 270px;
   height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
