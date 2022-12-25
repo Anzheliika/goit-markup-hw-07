@@ -1,4 +1,4 @@
-.section-hero {
+.hero {
   background-color: var(--bkg-block-color);
   text-align: center;
   padding-top: 200px;
@@ -13,11 +13,14 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.title-hero {
+.hero_title {
   margin-bottom: 30px;
 
   color: var(--primery-white-color);
-  @include font(44, 900, 1.34, 0.06);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.34;
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
 }
